@@ -1,0 +1,385 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500&display=swap');
+html{
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(71, 38, 38);
+}
+/*General config*/
+*{
+    margin: 0;
+}
+/*Header This needs more organization*/ 
+header img{
+    width: 10%;
+    border-radius:50%;
+
+}
+header{
+    width: 100%;
+    box-shadow: 1px 3px 10px;
+    box-sizing: content-box;
+    background: linear-gradient(180deg, rgba(139, 0, 0, 0.8),
+    rgba(131, 1, 1, 0.8),
+    rgba(141, 1, 1, 0.8)), 
+    url(https://t4.ftcdn.net/jpg/02/05/01/41/360_F_205014194_jXn6FXUBQo2iukZXBHECAK3RwEuM83Fh.jpg);
+    height: 131px;
+    position: fixed;
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+  }
+li{
+    list-style: none;
+    display: inline;
+}
+
+body{
+    background: linear-gradient(180deg,rgba(255, 249, 193, 0.466),rgba(255, 253, 235, 0.466),rgba(255, 253, 236, 0.466)),
+    url(https://t4.ftcdn.net/jpg/02/05/01/41/360_F_205014194_jXn6FXUBQo2iukZXBHECAK3RwEuM83Fh.jpg) ;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+}
+.desc h2{
+    font-size: 30px;
+}
+.desc p{
+    font-size: 20px;
+}
+#features {
+    display: flex;
+}
+#nav-bar{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    right: 35px;
+    bottom: 50px;
+}
+.menu{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.nav-link{
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 100px;
+    text-decoration: none;
+    transition: 0.6s;
+    color: snow;
+    letter-spacing: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link:hover {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 24, 70);
+    color: rgb(255, 16, 64);
+    font-size: 31px;
+}
+#how-it-works{
+     display: flex;
+     justify-content: center;
+}
+.imagenes{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#hero{
+    box-sizing: border-box;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-left: 500px;
+    background: linear-gradient(
+      100deg,
+      rgba(247, 247, 247, 0.8),
+      rgba(218, 218, 218, 0.8),
+      rgba(218, 218, 218, 0.8)
+      ),
+    url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/10/15/5e9977d4903ac.jpeg);
+}
+
+#hero h2{
+    margin:25px 25px 25px 100px;
+    font-size: 40px;
+}
+
+#hero p{
+    margin:-35px 25px 25px 140px;
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 75px;
+    font-family: saira;
+    background: linear-gradient(100deg,
+    rgba(247, 247, 247, 0.8),
+    rgba(218, 218, 218, 0.8),
+    rgba(218, 218, 218, 0.8));
+    border-radius: 25px;
+    box-shadow: 2px 3px 1px;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    font-family:  'Saira Condensed', sans-serif;
+    font-size: 20px;
+    transition: 0.5s all;
+}
+.btn:hover{
+    font-size: 25px;
+    width: 155px;
+    height: 45px;
+}
+.btn:active{
+    background-color: rgb(168, 82, 73);
+    color: snow;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    border-color:salmon;
+}
+#form{
+    display: block;
+    margin-left: 85px;
+}
+
+.info{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 212, 95, 0.8);
+    border-radius: 25px;
+    width: 1600px;
+}
+#single{
+    font-size: 60px;
+    text-align: center;
+}
+#checkout{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px;
+    
+}
+.productbox{
+    box-sizing: content-box;
+    border-style: groove;
+    width: 450px;
+    height: 750px;
+    border-radius: 25px;
+}
+.title {
+    font-size: 80px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: url(https://wallpaperaccess.com/full/9661.jpg);
+}
+#checkout h2{
+    font-size: 50px;
+    background-color: rgba(219, 240, 237, 0.5);
+
+}
+#checkout p{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#TF2{
+    background:
+    url(https://i.pinimg.com/originals/79/36/df/7936dfd18347b14aff09a6b5d0fb4aaa.jpg);
+    margin-left: 150px;
+
+}
+
+#TF2 p{
+    background-color: rgba(219, 240, 237, 0.5);
+    border-radius: 25px;
+}
+
+#Vegan{
+    background: url(https://risdmuseum.org/sites/default/files/museumplus/83615.jpg);
+    margin-left: 150px;
+}
+#Vegan p{
+    background-color: rgba(219, 240, 237, 0.5);
+    border-radius: 25px;
+}
+#Family p{
+background-color: rgba(219, 240, 237, 0.5);
+    border-radius: 25px;
+}
+#Family{
+    background:
+    url(https://theculturetrip.com/wp-content/uploads/2016/09/utagawa_toyokuni_ukiyo-e_woodblock_print.jpg);
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#Nemo{
+    background:
+    url(https://thumbs.dreamstime.com/z/koi-fish-wave-water-circles-japanese-chinese-vector-design-koi-fish-wave-water-circles-japanese-chinese-vector-design-pattern-175494408.jpg);
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#Nemo p{
+    background-color: rgba(219, 240, 237, 0.5);
+        border-radius: 25px;
+    }
+.otro{
+    width: 150px;
+    height: 50px;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 2px 5px 2px;
+    border-style: none;
+    border-radius: 20px;
+    transition: 0.8s all;
+    background:url(https://i.pinimg.com/originals/10/5d/7a/105d7a4a4b62b989bb04a2b6cfd97059.jpg) ;
+}
+
+.otro:hover{
+    width: 160px;
+    height: 60px;
+    font-size: 23px;
+    color: rgb(37, 37, 37);
+}
+
+.otro:active{
+    background:url(https://climate.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBakFuIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f5d8431b1e7ea75603df0503ed45c78d7b0efe3b/wildfire_768_60.jpg) ;
+    color: snow;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+footer{
+    background-color: brown;
+    height: 150px;
+    margin-top: 100px;
+}
+footer a{
+    color:rgb(49, 23, 5);
+    display: block;
+    justify-content: left;
+    font-size: 25px;
+    text-decoration: none;
+}
+span{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(26, 11, 1);
+}
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    html{
+        width: 450px;
+    }
+    #header{
+        width: 480px;
+    }
+    #hero{
+        margin-left: 0px;
+        width: 420px;
+        text-align: left;
+    }
+    #hero h2{
+        margin-left: 65px;
+    }
+    #hero p{
+        margin-left: 90px;
+    }
+    #form{
+       margin-left: 42px;
+    }
+
+    #nav-bar{
+        display: flex ;
+        margin: 0%;
+        margin-top: 90px;
+    }
+    .nav-link{
+        font-weight: 600;
+        margin-left: 12px;
+        font-size: 15px;
+    }
+    .imagenes{
+        display: none;
+    }
+  #features{
+      display: grid;
+  }
+  .grid{
+      border-radius: 0%;
+  }
+  .desc{
+      width: 400px;   
+  }
+  #video{
+      width: 400px;
+      height: 350px;
+  }
+  .title{
+      font-size: 60px;
+      margin: 0%;
+  }
+  #checkout{
+      display: flex;
+      flex-direction: column;
+  }
+  .productbox{
+      margin: 0%;
+      width: 400px;
+  }
+  #TF2{
+      margin: 0%;
+  }
+  #Vegan{
+      margin: 0%;
+      margin-top: 15px;
+  }
+  #Family{
+      margin: 0%;
+      margin-top: 15px;
+  }
+  #Nemo{
+      margin: 0%;
+      margin-top: 15px;
+  }
+}
+
+@media screen and (max-width:360px){
+    #nav-bar{
+        margin: 0%;
+        padding: 0%;
+        margin-top: 50px;
+    }
+    #header-img{
+        width: 100px;
+    }
+}
